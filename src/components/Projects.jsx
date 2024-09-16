@@ -10,7 +10,7 @@ const Projects = () => {
         },
         {
             "title": "ChatNexus",
-            "image":"public/project image/chatapp.jpg",
+            "image":"/project image/chatapp.jpg",
             "description": "A real-time chat application developed using React, Tailwind CSS, Node.js, Express.js, Socket.io, and MongoDB. It supports instant messaging, group chat, message history, and is designed to be responsive across different devices​.",
             "link": "https://mern-chat-app-1-z7l7.onrender.com/"
         }
