@@ -5,59 +5,59 @@ const Skills = () => {
     const skills=[
         {
             "name":"c",
-            "image":"/public/c.svg"
+            "image":"/c.svg"
         },
         {
             "name":"cpp",
-            "image":"/public/cpp.svg"
+            "image":"/cpp.svg"
         },
         {
             "name":"html",
-            "image":"/public/html.svg"
+            "image":"/html.svg"
         },
         {
             "name":"css",
-            "image":"/public/css.svg"
+            "image":"/css.svg"
         },
         {
             "name":"Tailwind CSS",
-            "image":"/public/tailwind-css.svg"
+            "image":"/tailwind-css.svg"
         },
         {
             "name":"BootStrap",
-            "image":"/public/bootstrap.svg"
+            "image":"/bootstrap.svg"
         },
         {
             "name":"javascript",
-            "image":"/public/javascript.svg"
+            "image":"/javascript.svg"
         },
         {
             "name":"React",
-            "image":"/public/react.svg"
+            "image":"/react.svg"
         },
         {
             "name":"Node js",
-            "image":"/public/nodejs.svg"
+            "image":"/nodejs.svg"
         },
         {
             "name":"Redux",
-            "image":"/public/redux.svg"
+            "image":"/redux.svg"
         },
         {
             "name":"Mongodb",
-            "image":"/public/mongodb.svg"
+            "image":"/mongodb.svg"
         },
         {
             "name":"git",
-            "image":"/public/git.svg"
+            "image":"/git.svg"
         },
         {
             "name":"Github",
-            "image":"/public/github.svg"
+            "image":"/github.svg"
         },
         {
             "name":"Socket io",
-            "image":"/public/socket-io.svg"
+            "image":"/socket-io.svg"
         },
     ]
   return (
