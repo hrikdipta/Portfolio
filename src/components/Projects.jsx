@@ -16,7 +16,7 @@ const Projects = () => {
         }
     ]
     return (
-        <div>
+        <div className='mt-4' name="projects">
             <h2 className='text-3xl md:text-4xl font-Playpen-Sans py-8 text-gray-300'>Projects</h2>
             <div className='flex flex-wrap justify-center gap-8'>
                 {

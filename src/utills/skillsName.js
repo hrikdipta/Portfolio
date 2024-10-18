@@ -1,58 +1,58 @@
 export const skills=[
     {
         "name":"c",
-        "image":"/c.svg"
+        "image":"/skills_logo/c.svg"
     },
     {
         "name":"cpp",
-        "image":"/cpp.svg"
+        "image":"/skills_logo/cpp.svg"
     },
     {
         "name":"html",
-        "image":"/html.svg"
+        "image":"/skills_logo/html.svg"
     },
     {
         "name":"css",
-        "image":"/css.svg"
+        "image":"/skills_logo/css.svg"
     },
     {
         "name":"Tailwind CSS",
-        "image":"/tailwind-css.svg"
+        "image":"/skills_logo/tailwind-css.svg"
     },
     {
         "name":"BootStrap",
-        "image":"/bootstrap.svg"
+        "image":"/skills_logo/bootstrap.svg"
     },
     {
         "name":"javascript",
-        "image":"/javascript.svg"
+        "image":"/skills_logo/javascript.svg"
     },
     {
         "name":"React",
-        "image":"/react.svg"
+        "image":"/skills_logo/react.svg"
     },
     {
         "name":"Node js",
-        "image":"/nodejs.svg"
+        "image":"/skills_logo/nodejs.svg"
     },
     {
         "name":"Redux",
-        "image":"/redux.svg"
+        "image":"/skills_logo/redux.svg"
     },
     {
         "name":"Mongodb",
-        "image":"/mongodb.svg"
+        "image":"/skills_logo/mongodb.svg"
     },
     {
         "name":"git",
-        "image":"/git.svg"
+        "image":"/skills_logo/git.svg"
     },
     {
         "name":"Github",
-        "image":"/github.svg"
+        "image":"/skills_logo/github.svg"
     },
     {
         "name":"Socket io",
-        "image":"/socket-io.svg"
+        "image":"/skills_logo/socket-io.svg"
     },
 ]

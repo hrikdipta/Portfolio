@@ -5,7 +5,7 @@ const Contact = () => {
         e.preventDefault();
     }
     return (
-        <div className='flex items-center justify-center mt-20'>
+        <div className='flex items-center justify-center mt-20' name="contact">
             <form className="flex flex-col max-w-md flex-wrap md:flex-nowrap gap-4 items-center border-2 py-6 px-4 rounded-2xl border-gray-500" onSubmit={handleSubmit}>
                 <div className='flex w-full flex-wrap md:flex-nowrap gap-2'>
                     <Input isRequired type="text" label="FirstName" placeholder="First Name" labelPlacement="outside"/>
