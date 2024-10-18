@@ -10,9 +10,10 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+import Footer from './components/Footer'
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <NavBar />
       <Background className='max-w-5xl px-4 mx-auto'>
         <Hero />
@@ -20,7 +21,8 @@ function App() {
         <Projects />
         <Contact />
       </Background>
-    </BrowserRouter>
+      <Footer/>
+    </>
   )
 }
 
