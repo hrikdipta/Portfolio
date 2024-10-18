@@ -22,7 +22,7 @@ export default function NavBar() {
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="opacity-75" isBordered>
+    <Navbar isBlurred={false} onMenuOpenChange={setIsMenuOpen} className="opacity-75 w-full" isBordered >
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}

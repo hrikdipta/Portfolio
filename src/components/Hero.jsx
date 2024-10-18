@@ -6,7 +6,7 @@ import iamage from '../assets/Image.jpeg'
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
 const Hero = () => {
     return (
-        <div className='text-5xl h-full flex justify-between mt-40 font-Playpen-Sans text-gray-300 md:max-w-4xl lg:max-w-7xl mx-auto pl-3 md:pl-10'>
+        <div className='text-5xl h-screen  flex justify-between pt-40 font-Playpen-Sans text-gray-300 md:max-w-4xl lg:max-w-7xl mx-auto '>
             <div className=''>
                 <div className='mb-5'>
                     <p className=''>Hi! I am Hrik</p>
@@ -30,12 +30,17 @@ const Hero = () => {
                         repeat={Infinity}
                     />
                 </div>
-                <Button radius="full" className="bg-gradient-to-tr mt-8 from-pink-500 to-yellow-500 text-white shadow-lg  flex ">
-                    <Link  target='blank' href="https://drive.google.com/file/d/1vpvlOtKTNfMBJd02uCdKwVAGz6b4qHwW/view?usp=sharing">
+                <div className='max-w-36'>
+                    <Button 
+                        href="https://drive.google.com/file/d/1vpvlOtKTNfMBJd02uCdKwVAGz6b4qHwW/view?usp=sharing"
+                        as={Link}
+                        target='blank'
+                        radius="full" className="bg-gradient-to-tr mt-8 from-pink-500 to-yellow-500 text-white shadow-lg text-sm flex"
+                    >
                         Download CV
-                    </Link>
-                    <FaRegArrowAltCircleDown />
-                </Button>
+                        <FaRegArrowAltCircleDown className='text-base'/>
+                    </Button>   
+                </div>
             </div>
             <div className='mr-10  hidden md:block'>
                 <Image

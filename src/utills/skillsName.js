@@ -1,0 +1,58 @@
+export const skills=[
+    {
+        "name":"c",
+        "image":"/c.svg"
+    },
+    {
+        "name":"cpp",
+        "image":"/cpp.svg"
+    },
+    {
+        "name":"html",
+        "image":"/html.svg"
+    },
+    {
+        "name":"css",
+        "image":"/css.svg"
+    },
+    {
+        "name":"Tailwind CSS",
+        "image":"/tailwind-css.svg"
+    },
+    {
+        "name":"BootStrap",
+        "image":"/bootstrap.svg"
+    },
+    {
+        "name":"javascript",
+        "image":"/javascript.svg"
+    },
+    {
+        "name":"React",
+        "image":"/react.svg"
+    },
+    {
+        "name":"Node js",
+        "image":"/nodejs.svg"
+    },
+    {
+        "name":"Redux",
+        "image":"/redux.svg"
+    },
+    {
+        "name":"Mongodb",
+        "image":"/mongodb.svg"
+    },
+    {
+        "name":"git",
+        "image":"/git.svg"
+    },
+    {
+        "name":"Github",
+        "image":"/github.svg"
+    },
+    {
+        "name":"Socket io",
+        "image":"/socket-io.svg"
+    },
+]

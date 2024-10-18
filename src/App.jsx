@@ -12,20 +12,14 @@ import {
 } from "react-router-dom";
 function App() {
   return (
-      <BrowserRouter>
-      <div className='min-h-screen'>
-        <NavBar/>
-          <div className='max-w-5xl mx-auto'>
-            <Background >
-              <Routes>
-                <Route path='/'  element={<Hero/>}/>
-                <Route path='/skills'  element={<Skills/>}/>
-                <Route path='/projects'  element={<Projects/>}/>
-                <Route path='/contact'  element={<Contact/>}/>
-              </Routes>
-            </Background>
-          </div>
-      </div>
+    <BrowserRouter>
+      <NavBar />
+      <Background className='max-w-5xl px-4 mx-auto'>
+        <Hero />
+        <Skills />
+        <Projects />
+        <Contact />
+      </Background>
     </BrowserRouter>
   )
 }

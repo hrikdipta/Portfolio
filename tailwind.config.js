@@ -7,7 +7,17 @@ export default {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+            from: { transform: 'translateX(0)' },
+            to: { transform: 'translateX(-100%)' },
+        }
+      },
+    },
     fontFamily:{
       'Roboto': ["Roboto", 'sans-serif'],
       'Playpen-Sans': ["Playpen Sans", 'cursive']

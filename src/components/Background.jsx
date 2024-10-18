@@ -1,9 +1,9 @@
 import React from 'react';
 import { AnimatedBackground } from 'animated-backgrounds';
 
-function Background({children}) {
+function Background({className,children}) {
   return (
-    <div className=''>
+    <div className={className}>
       <AnimatedBackground animationName="cosmicDust" style={{ "background-color": "000000" }} />
        {children}
     </div>
