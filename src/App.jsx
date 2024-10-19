@@ -11,12 +11,14 @@ import {
   Routes
 } from "react-router-dom";
 import Footer from './components/Footer'
+import AboutMe from './components/AboutMe'
 function App() {
   return (
     <>
       <NavBar />
       <Background className='max-w-5xl px-4 mx-auto'>
         <Hero />
+        <AboutMe/>
         <Skills />
         <Projects />
         <Contact />

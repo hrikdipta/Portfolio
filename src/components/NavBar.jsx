@@ -9,6 +9,11 @@ export default function NavBar() {
   const urlPath = window.location.pathname;
   const menuItems = [
     {
+      "name":"About Me",
+      "link":"#about",
+      "to":"abour"
+    },
+    {
       "name":"Skills",
       "link":"#skills",
       "to":"skills"
@@ -41,8 +46,21 @@ export default function NavBar() {
 
       <NavbarContent className="hidden sm:flex gap-6 mr-7 text-lg" justify="center">
         <NavbarItem >
+          <Link
+            className="cursor-pointer"
+            activeClass="text-blue-400 font-Playpen-Sans"
+            to="about"
+            smooth={true}
+            offset={-50}
+            duration={500}
+            spy={true}
+          >
+            About Me
+          </Link>
+        </NavbarItem>
+        <NavbarItem >
           <Link 
-            className=""
+            className="cursor-pointer"
             activeClass="text-blue-400 font-Playpen-Sans"
             to="skills"
             smooth={true} 
@@ -55,7 +73,7 @@ export default function NavBar() {
         </NavbarItem>
         <NavbarItem >
           <Link 
-            className=""
+            className="cursor-pointer"
             activeClass="text-blue-400"
             to="projects"
             smooth={true} 
@@ -68,7 +86,7 @@ export default function NavBar() {
         </NavbarItem>
         <NavbarItem>
           <Link 
-            className=""
+            className="cursor-pointer"
             activeClass="text-blue-400 font-Playpen-Sans"
             to="contact"
             smooth={true} 
@@ -98,7 +116,7 @@ export default function NavBar() {
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item.name}-${index}`}>
             <Link
-              className="text-white font-Playpen-Sans"
+              className="text-white font-Playpen-Sans cursor-pointer"
               activeClass="text-blue-400"
               to={item.to}
               smooth={true} 
