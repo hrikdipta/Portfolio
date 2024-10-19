@@ -6,13 +6,13 @@ const Projects = () => {
             "title": "Blog Sphere",
             "image":'/project image/blogging.png',
             "description": "A full-stack blogging platform built with the MERN stack (MongoDB, Express.js, React, Node.js). It includes features such as OTP-based user authentication using JWT & OAuth, post liking and commenting, a search functionality, and an admin panel for content management. The platform is designed with RESTful APIs for smooth frontend-backend communication.",
-            "link": "https://mern-blog-ah99.onrender.com/"
+            "link": "https://github.com/hrikdipta/mern-blog"
         },
         {
             "title": "ChatNexus",
             "image":"/project image/chatapp.jpg",
             "description": "A real-time chat application developed using React, Tailwind CSS, Node.js, Express.js, Socket.io, and MongoDB. It supports instant messaging, group chat, message history, and is designed to be responsive across different devices​.",
-            "link": "https://mern-chat-app-1-z7l7.onrender.com/"
+            "link": "https://github.com/hrikdipta/MERN-Chat-app"
         }
     ]
     return (

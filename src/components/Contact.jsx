@@ -4,6 +4,7 @@ import { GoMail } from "react-icons/go";
 import { LiaMapMarkedAltSolid } from "react-icons/lia";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaSquareFacebook, FaSquareInstagram, FaLinkedin, FaSquareGithub } from "react-icons/fa6";
+import { Link } from '@nextui-org/react';
 const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -15,26 +16,26 @@ const Contact = () => {
                 <div className='left  my-auto'>
                     <p className='text-2xl'>Get in Touch With Me</p>
                     <div className='flex flex-col gap-6 py-4 pl-3'>
-                        <div className='flex gap-3 items-center'>
+                        <Link className='flex gap-3 items-center text-white' href="mailto:hrikdiptakundu123@gmail.com">
                             <GoMail className='text-xl hover:text-gray-300' />
-                            <p><a href="mailto:someone@example.com">hrikdiptakundu123@gmail.com</a> </p>
-                        </div>
-                        <div className='flex gap-3 items-center'>
+                            <p>hrikdiptakundu123@gmail.com</p>
+                        </Link>
+                        <Link className='flex gap-3 items-center text-white' target="_blank" href='https://maps.app.goo.gl/k9Wzi4U428Ukp7zx7'>
                             <LiaMapMarkedAltSolid className='text-2xl hover:text-gray-300' />
-                            <p id='location' className='text-wrap max-w-96'><a target="_blank" href='https://maps.app.goo.gl/k9Wzi4U428Ukp7zx7'>RailWay Line Ghat Road, Nabadwip, Nadia, West Bengal, India 741302</a></p>
-                        </div>
-                        <div className='flex gap-3 items-center'>
+                            <p className='text-wrap max-w-96'>RailWay Line Ghat Road, Nabadwip, Nadia, West Bengal, India 741302</p>
+                        </Link>
+                        <Link className='flex gap-3 items-center text-white' href='tel:+919800898317'>
                             <FaPhoneAlt className='text-white text-xl hover:text-gray-300' />
-                            <p><a href='tel:919800898317'>+91-9800898317</a></p>
-                        </div>
+                            <p>+91-9800898317</p>
+                        </Link>
                     </div>
                     <div className='flex flex-col gap-4 mt-4 '>
                         <p className='text-2xl'>Connect With Me </p>
                         <div className='text-3xl flex items-center gap-5 pl-3'>
-                            <FaLinkedin className='cursor-pointer hover:text-gray-300' />
-                            <FaSquareGithub className='cursor-pointer hover:text-gray-300' />
-                            <FaSquareInstagram className='cursor-pointer hover:text-gray-300' />
-                            <FaSquareFacebook className='cursor-pointer hover:text-gray-300' />
+                            <a href='https://www.linkedin.com/in/hrikdipta-kundu/' target='_blank'><FaLinkedin className='cursor-pointer hover:text-gray-300' /></a>
+                            <a href='https://github.com/hrikdipta' target='_blank'><FaSquareGithub className='cursor-pointer hover:text-gray-300' /></a>
+                            <a href='https://www.instagram.com/hrikdiptakundu/' target='_blank'><FaSquareInstagram  className='cursor-pointer hover:text-gray-300' /></a>
+                            <a href='https://www.facebook.com/profile.php?id=100072202299973' target='_blank'><FaSquareFacebook className='cursor-pointer hover:text-gray-300' /></a>
                         </div>
                     </div>
                 </div>

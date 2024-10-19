@@ -6,7 +6,7 @@ import iamage from '../assets/Image.jpeg'
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
 const Hero = () => {
     return (
-        <div className='text-5xl h-screen  flex justify-between pt-40 font-Playpen-Sans text-gray-300 md:max-w-4xl lg:max-w-7xl mx-auto '>
+        <div className='text-5xl md:h-screen  flex justify-between pt-40 pb-40 md:pb-0 font-Playpen-Sans text-gray-300 md:max-w-4xl lg:max-w-7xl mx-auto '>
             <div className=''>
                 <div className='mb-5'>
                     <p className=''>Hi! I am Hrik</p>
