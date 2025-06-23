@@ -44,6 +44,10 @@ export const skills=[
         "image":"/skills_logo/mongodb.svg"
     },
     {
+        "name":"mysql",
+        "image":"/skills_logo/mysql.svg"
+    },
+    {
         "name":"git",
         "image":"/skills_logo/git.svg"
     },
@@ -55,4 +59,17 @@ export const skills=[
         "name":"Socket io",
         "image":"/skills_logo/socket-io.svg"
     },
+    {
+        "name":"aws",
+        "image":"/skills_logo/aws.svg"
+    },
+    {
+        "name":"spark",
+        "image":"/skills_logo/spark.svg"
+    },
+    {
+        "name":"python",
+        "image":"/skills_logo/python.svg"
+    },
+    
 ]
