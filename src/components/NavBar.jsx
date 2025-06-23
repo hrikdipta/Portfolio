@@ -39,7 +39,12 @@ export default function NavBar() {
         />
         <NavbarBrand>
           <Link  href="/">
-            <Logo color="white" className='h-8 md:h-10' />
+            {/* <Logo color="white" className='h-8 md:h-10' /> */}
+            <img
+              alt="HeroUI hero Image"
+              src="/logo.svg"
+              className="overflow-hidden h-8 md:h-10"
+            />
           </Link>
         </NavbarBrand>
       </NavbarContent>
